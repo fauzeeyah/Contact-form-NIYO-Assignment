@@ -1,0 +1,23 @@
+.form-element{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid black;
+  border-radius: 5px;
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+button:hover {
+    
+}
+img {
+  height: 300px;
+  width: 300px;
+}

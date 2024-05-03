@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Contact Us</h1>
+         <form>
+                <div>
+                <label for="fullname">
+                    What is Your Name
+                </label>
+            <input
+                type="text"
+                id="fullname"
+                class="form-element"
+                name="fullname"
+                placeholder="type your fullname here"
+                required
+                />
+            </div>
+            <div>
+                <label for="emailaddress">
+                    What is Your Emailaddress
+                </label>
+                <input
+                type="email"
+                id="emailaddress"
+                class="form-element"
+            name="emailaddress"
+                placeholder="type your emailaddress here"
+                required
+                />
+            </div> 
+            <div>
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-element"
+                placeholder="Type your message here..."
+                  rows="7"
+                ></textarea>
+              </div>
+            <button type="submit">Submit</button>
+        </form>
+        <img src="Images/Interview.PNG" alt="Interview Image">  
+</body>
+</html>
